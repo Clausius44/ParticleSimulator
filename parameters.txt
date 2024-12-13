@@ -1,0 +1,14 @@
+particles 10 black
+particles 10 blue
+particles 200 green
+particles 10 red
+rule black black 10
+rule blue blue -2
+rule green green -20
+rule red red 15
+rule black blue 20
+rule black green -50
+rule black red 20
+rule blue green 12
+rule blue red -1
+rule green red -60
